@@ -1,0 +1,20 @@
+//Use this link to download ESC library https://github.com/maxpowel/ESC
+//Using Arduino an ESC controller can go 'only FORWARD'
+#include <Servo.h>
+#include "ESC.h"
+Servo myservo;
+
+ESC esc(ESC::MODE_FORWARD_BACKWARD);
+
+void setup() 
+{
+  esc.attach(5);
+} 
+ 
+void loop() 
+{ 
+    esc.setSpeed(0);
+    esc.setDirection(ESC::FORWARD);
+    esc.setSpeed(99);
+    
+} 
