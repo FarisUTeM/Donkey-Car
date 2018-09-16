@@ -1,0 +1,32 @@
+//idefine your pins
+int motor_in1 = 6;
+int motor_in2 = 7;
+int motor_in3 = 8;
+int motor_in4 = 9;
+int motorspeed_1 = 10;//right
+int motorspeed_2 = 11;//left
+int speed1 = 255;  //right motor speed
+int speed2 = 255; //left motor speed
+
+void setup() 
+{
+  pinMode(motor_in1, OUTPUT);
+  pinMode(motor_in2, OUTPUT);
+  pinMode(motor_in3, OUTPUT);
+  pinMode(motor_in4, OUTPUT);
+  pinMode(speed1, OUTPUT);
+  pinMode(speed2, OUTPUT);
+}
+void loop() 
+{
+  forward();
+}
+void forward()
+{
+  digitalWrite(motor_in1, LOW); //LEFT
+  digitalWrite(motor_in2, HIGH);
+  digitalWrite(motor_in3, LOW); //RIGHT
+  digitalWrite(motor_in4, HIGH);
+  analogWrite(motorspeed_1, speed1);
+  analogWrite(motorspeed_2, speed2);
+}
