@@ -7,7 +7,7 @@ This project provide an Arduino sketch to code the motor driver, servo, dc motor
 2) Servo: 
   Servo motor will rotate from 0 degrees to 180 degrees, one degree at a time using Servo library.
 
-3)Dc motor:
+3) Dc motor:
   A 'brushed' DC motor is an internally commutated electric motor designed to be run from a direct current power source. 
 
 4) ESC (electronic speed controller):
