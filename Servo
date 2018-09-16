@@ -1,4 +1,5 @@
 // Program for moving servo motor 
+// Servo motor will rotate from 0 degrees to 180 degrees
 #include <Servo.h> //Reading servo motor library
 Servo myservo; //Create an object for the servo
 int val; //Variable for storing servo angle
