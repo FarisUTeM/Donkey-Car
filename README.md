@@ -1,4 +1,4 @@
-# Arduino-code-for-UTeM-donkey-car
+# UTeM-donkey-car
 This project provide an Arduino sketch to code the motor driver, servo, and ESC 
 
 1) Motor driver (L298N Dual H-Bridge): 
