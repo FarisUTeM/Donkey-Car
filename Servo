@@ -1,0 +1,21 @@
+// Program for moving servo motor 
+#include <Servo.h> //Reading servo motor library
+Servo myservo; //Create an object for the servo
+int val; //Variable for storing servo angle
+void setup()
+{
+myservo.attach(3); //Set digital pin 3 as the command pin for determining the servo angle
+}
+void loop()
+{
+
+val = 180;
+myservo.write(val); //Move the servo (right)
+delay(1000);
+val = 90;
+myservo.write(val); //Move the servo (straight)
+delay(1000);
+val = 0;
+myservo.write(val); //Move the servo (left)
+delay(1000);
+}
