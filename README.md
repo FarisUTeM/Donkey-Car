@@ -7,9 +7,6 @@ This project provide an Arduino sketch to code the motor driver, servo, and ESC
 2) Servo: 
   Servo motor will rotate from 0 degrees to 180 degrees, one degree at a time using Servo library.
 
-3) DC motor:
-  A 'brushed' DC motor is an internally commutated electric motor designed to be run from a direct current power source. 
-
-4) ESC (electronic speed controller):
+3) ESC (electronic speed controller):
   ESC are used to control 'brushless' motors. This sketch is based on the Servo library that allows controling servo-motors sending them a   50Hz servo-control signal (a particular kind of PWM).
 
